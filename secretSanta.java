@@ -21,7 +21,7 @@ public class secretSanta {
                 break;
             }
             //names[i] gives to names[i++]
-            //the last names gives to the first
+            //the last name gives to the first
             l = new FileWriter(names[i]+".txt");
             l.write(names[i+1]);
             l.close();
